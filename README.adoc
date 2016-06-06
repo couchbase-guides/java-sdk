@@ -5,17 +5,16 @@ tags: [java-sdk]
 :icons: font
 :source-highlighter: prettify
 :project_id: java-sdk
-This guide walks you through the process of using the Couchbase SDK to store a JSON document in Couchbase.
-:imagesdir: images
+This guide walks you through the process of using the Couchbase SDK to store a JSON document in http://developer.couchbase.com/[Couchbase].
 
 == What you'll build
 
-You will store a JSON document representiong a Person in Couchbase Server using the Couchbase Java SDK.
+You will store a JSON document representiong a Person in Couchbase Server using the http://developer.couchbase.com/documentation/server/current/sdks/java-2.2/java-intro.html[Couchbase Java SDK].
 
 == What you'll need
 
 * 15-30 minutes
-* A Java code editor with java 1.8 
+* A Java code editor with java 1.8+
 * Maven
 * link:http://www.couchbase.com/nosql-databases/downloads[Couchbase Server 4.5+] (follow the instructions to install Couchbase and create a bucket - this guide assumes you will have it running locally)
 
@@ -24,7 +23,7 @@ You will store a JSON document representiong a Person in Couchbase Server using 
 === Install and launch Couchbase
 With your project set up, you can install and launch Couchbase.
     
-For whatever operating system you are using, instructions and downloads can be found at  http://developer.couchbase.com/documentation/server/4.0/install/install-intro.html.
+For whatever operating system you are using, instructions and downloads can be found at  http://developer.couchbase.com/documentation/server/current/install/install-intro.html[http://developer.couchbase.com/documentation/server/current/install/install-intro.html].
 
 After you install Couchbase, launch it. You should see a webpage opening in your default browser allowing you to setup Couchbase
 
