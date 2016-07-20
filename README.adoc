@@ -14,7 +14,7 @@ You will store a JSON document representiong a Person in Couchbase Server using 
 == What you'll need
 
 * 15-30 minutes
-* A Java code editor with java 1.8+
+* A Java code editor with JDK 1.8+
 * Maven
 * link:http://www.couchbase.com/nosql-databases/downloads[Couchbase Server 4.5+] (follow the instructions to install Couchbase and create a bucket - this guide assumes you will have it running locally)
 
