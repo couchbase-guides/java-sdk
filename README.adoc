@@ -5,6 +5,9 @@ tags: [java-sdk]
 :icons: font
 :source-highlighter: prettify
 :project_id: java-sdk
+
+= Getting started with Couchbase and the Java SDK
+
 This guide walks you through the process of using the Couchbase SDK to store a JSON document in http://developer.couchbase.com/[Couchbase].
 
 == What you'll build
