@@ -26,7 +26,7 @@ You will store a JSON document representiong a Person in Couchbase Server using 
 === Install and launch Couchbase
 With your project set up, you can install and launch Couchbase.
     
-For whatever operating system you are using, instructions and downloads can be found at  http://developer.couchbase.com/documentation/server/current/install/install-intro.html[http://developer.couchbase.com/documentation/server/current/install/install-intro.html].
+For whatever operating system you are using, instructions and downloads can be found at  http://developer.couchbase.com/documentation/server/current/getting-started/installing.html[http://developer.couchbase.com/documentation/server/current/getting-started/installing.html].
 
 After you install Couchbase, launch it. You should see a webpage opening in your default browser allowing you to setup Couchbase
 
