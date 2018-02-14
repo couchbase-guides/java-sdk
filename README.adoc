@@ -54,7 +54,7 @@ Here you create an Application class with all the components.
 include::complete/src/main/java/hello/Application.java[]
 ----
 
-The `main()` method starts by intializing a connection to the cluster by calling `CouchbaseCluster.create()`. By default this method will attempt a connection to a cluster on the same machine, which is to say with 127.0.0.1 as IP.
+The `main()` method starts by initializing a connection to the cluster by calling `CouchbaseCluster.create()`. By default this method will attempt a connection to a cluster on the same machine, which is to say with 127.0.0.1 as IP.
 
 Then use the `openBucket` method. By default it opens the bucket named default. A bucket is where you store k/v pairs in Couchbase.
 A k/v pair can be called a document from the moment the value is a JSON String. To create a JSON object call the `JsonObject.create()` method. By default this object will be empty. As the goal here is to store a Person document you can add a firstName and lastName property to the JsonObject like so:
